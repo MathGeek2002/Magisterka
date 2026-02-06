@@ -1,0 +1,14 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'magisterka.blg'
+[227] biber-MSWIN64:340> INFO - === 
+[292] Biber.pm:415> INFO - Reading 'magisterka.bcf'
+[522] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
+[554] Biber.pm:4340> INFO - Processing section 0
+[578] Biber.pm:4531> INFO - Looking for bibtex format file 'bibliografia.bib' for section 0
+[670] bibtex.pm:1689> INFO - LaTeX decoding ...
+[681] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia.bib'
+[747] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[747] UCollate.pm:68> INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[747] Biber.pm:4168> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'pl-PL'
+[749] bbl.pm:654> INFO - Writing 'magisterka.bbl' with encoding 'UTF-8'
+[750] bbl.pm:757> INFO - Output to magisterka.bbl

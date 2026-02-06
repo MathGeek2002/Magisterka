@@ -8,17 +8,26 @@
 \usepackage{amsmath}
 \usepackage{physics}
 \usepackage{breqn}
-\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[
+  colorlinks=true,
+  linkcolor=blue!60!black,
+  citecolor=blue!50!black,
+  urlcolor=red!60!black
+]{hyperref}
 \usepackage{geometry}
 \usepackage{enumitem}
 \usepackage[toc]{appendix}
 \usepackage{indentfirst}
 \usepackage{subcaption}
 \usepackage[para,hang]{footmisc}
+\usepackage[backend=biber, style=alphabetic]{biblatex}
+\addbibresource{bibliografia.bib}
 
 \setlist[enumerate,1]{label=\arabic*}
 \setlist[enumerate,2]{label=\theenumi.\arabic*}
 \setlist[enumerate,3]{label=\theenumii.\arabic*}
+
 
 \geometry{
 	inner=2.5cm,
@@ -39,15 +48,9 @@
 
 \input{Wstep}
 
-
+\printbibliography[title={Bibliografia}]
 
 \appendix
 
-
-\begin{thebibliography}{99}
-\bibitem{MHHR06} Matthias Müller Bruno Heidelberger Marcus Hennix John Ratcliff
-\textit{Position Based Dynamics} (2006)
-
-\end{thebibliography}
 
 \end{document}

@@ -1,0 +1,52 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{kowalski2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=eebf8465655148137a4b5668efd5b960}{%
+           family={Kowalski},
+           familyi={K\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{eebf8465655148137a4b5668efd5b960}
+      \strng{fullhash}{eebf8465655148137a4b5668efd5b960}
+      \strng{bibnamehash}{eebf8465655148137a4b5668efd5b960}
+      \strng{authorbibnamehash}{eebf8465655148137a4b5668efd5b960}
+      \strng{authornamehash}{eebf8465655148137a4b5668efd5b960}
+      \strng{authorfullhash}{eebf8465655148137a4b5668efd5b960}
+      \field{labelalpha}{Kow20}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Example Studies}
+      \field{number}{3}
+      \field{title}{Przykładowy artykuł naukowy}
+      \field{volume}{12}
+      \field{year}{2020}
+      \field{pages}{45\bibrangedash 60}
+      \range{pages}{16}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
