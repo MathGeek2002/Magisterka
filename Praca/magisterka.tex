@@ -1,0 +1,52 @@
+\documentclass[a4paper,12pt]{book}
+\usepackage[nottoc]{tocbibind}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[normalem]{ulem}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{physics}
+\usepackage{breqn}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage[toc]{appendix}
+\usepackage{indentfirst}
+\usepackage{subcaption}
+
+\setlist[enumerate,1]{label=\arabic*}
+\setlist[enumerate,2]{label=\theenumi.\arabic*}
+\setlist[enumerate,3]{label=\theenumii.\arabic*}
+
+\geometry{
+	inner=2.5cm,
+	outer=3.8cm,
+	bindingoffset=0.5cm,
+	top=2.5cm,
+	bottom=2.5cm
+}
+
+\title{Symulacja miękkich ciał z użyciem dynamiki opartej na położeniach}
+\author{Stanisław Jakimowicz}
+
+\begin{document}
+
+\input{titlepage}
+
+\tableofcontents
+
+\input{Wstep}
+
+
+
+\appendix
+
+
+\begin{thebibliography}{99}
+\bibitem{MHHR06} Matthias Müller Bruno Heidelberger Marcus Hennix John Ratcliff
+\textit{Position Based Dynamics} (2006)
+
+\end{thebibliography}
+
+\end{document}
